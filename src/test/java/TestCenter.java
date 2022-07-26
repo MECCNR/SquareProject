@@ -6,10 +6,10 @@ import ru.netology.sqr.SQRService;
 public class TestCenter {
     @ParameterizedTest
     @CsvSource({
-            "100,200,4",
+            "100,200,5",
             "200,300,3",
-            "1,100,0",
-            "0,100,0",
+            "1,100,1",
+            "0,100,1",
             "500,1000,9"
     })
 
